@@ -17,6 +17,9 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+binary = [
+    "pyinstaller>=6.21,<7",
+]
 
 [project.scripts]
 cloudlab = "cloudlab_cli.cli:main"
